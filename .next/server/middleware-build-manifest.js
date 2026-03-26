@@ -1,0 +1,20 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/03~yq9q893hmn.js"
+  ],
+  "lowPriorityFiles": [
+    "static/DxD5Ib9aEydNLzWYw_dl7/_buildManifest.js",
+    "static/DxD5Ib9aEydNLzWYw_dl7/_ssgManifest.js",
+    "static/DxD5Ib9aEydNLzWYw_dl7/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/11kjahy2ntf0n.js",
+    "static/chunks/13ekek7lg2ubh.js",
+    "static/chunks/16g.ca89g7fib.js",
+    "static/chunks/turbopack-05.3pqgbkaadk.js"
+  ]
+};

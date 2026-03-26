@@ -1,0 +1,3 @@
+module.exports=[33290,a=>{"use strict";var b=a.i(7997);a.s(["default",0,function({children:a}){return(0,b.jsxs)("html",{lang:"en",className:"dark",children:[(0,b.jsxs)("head",{children:[(0,b.jsx)("link",{rel:"preconnect",href:"https://fonts.googleapis.com"}),(0,b.jsx)("link",{rel:"preconnect",href:"https://fonts.gstatic.com",crossOrigin:"anonymous"})]}),(0,b.jsx)("body",{className:"min-h-screen bg-animated antialiased",children:a})]})},"metadata",0,{title:"SUS Analytics — System Usability Scale Dashboard",description:"Upload SUS survey data, compute usability metrics, and get actionable insights.",icons:{icon:"/favicon.svg"}}])},70864,a=>{a.n(a.i(33290))}];
+
+//# sourceMappingURL=app_layout_tsx_13yf0ls._.js.map

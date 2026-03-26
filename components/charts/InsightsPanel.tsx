@@ -3,7 +3,7 @@
 import type { AnalysisReport, Recommendation } from "@/types";
 import { cn } from "@/utils/cn";
 
-// 1. Define the shape of AI Insights to satisfy TypeScript
+// 1. Define exactly what the AI returns
 interface AIInsights {
   executive_summary?: string;
   key_findings?: string[];
@@ -14,8 +14,8 @@ interface AIInsights {
 
 interface Props {
   report: AnalysisReport;
-  // Use the interface here instead of Record<string, unknown>
-  aiInsights: AIInsights | null;
+  // 2. Change 'Record<string, unknown>' to 'AIInsights'
+  aiInsights: AIInsights | null; 
   aiLoading: boolean;
   onFetchAI: () => void;
 }

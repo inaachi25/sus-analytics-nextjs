@@ -1,12 +1,21 @@
-// components/charts/InsightsPanel.tsx
 "use client";
 
 import type { AnalysisReport, Recommendation } from "@/types";
 import { cn } from "@/utils/cn";
 
+// 1. Define the shape of AI Insights to satisfy TypeScript
+interface AIInsights {
+  executive_summary?: string;
+  key_findings?: string[];
+  priority_actions?: string[];
+  positive_highlights?: string[];
+  benchmark_context?: string;
+}
+
 interface Props {
   report: AnalysisReport;
-  aiInsights: Record<string, unknown> | null;
+  // Use the interface here instead of Record<string, unknown>
+  aiInsights: AIInsights | null;
   aiLoading: boolean;
   onFetchAI: () => void;
 }
@@ -100,21 +109,21 @@ export default function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI
             </button>
           </div>
 
-          {/* Executive summary */}
+          {/* Executive summary - Fixed type error by ensuring it's treated as string */}
           {aiInsights.executive_summary && (
             <p className="text-sm text-white/75 leading-relaxed mb-4 pb-4 border-b border-white/[0.07]">
-              {String(aiInsights.executive_summary)}
+              {aiInsights.executive_summary}
             </p>
           )}
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {/* Key findings */}
-            {Array.isArray(aiInsights.key_findings) && (
+            {aiInsights.key_findings && (
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-wider text-white/35 mb-2.5">
                   Key Findings
                 </p>
-                {(aiInsights.key_findings as string[]).map((f, i) => (
+                {aiInsights.key_findings.map((f, i) => (
                   <div
                     key={i}
                     className="text-xs text-white/65 leading-relaxed mb-2 pl-3 border-l-2 border-indigo-400/30"
@@ -126,12 +135,12 @@ export default function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI
             )}
 
             {/* Priority actions */}
-            {Array.isArray(aiInsights.priority_actions) && (
+            {aiInsights.priority_actions && (
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-wider text-white/35 mb-2.5">
                   Priority Actions
                 </p>
-                {(aiInsights.priority_actions as string[]).map((a, i) => (
+                {aiInsights.priority_actions.map((a, i) => (
                   <div
                     key={i}
                     className="text-xs text-white/65 leading-relaxed mb-2 pl-3 border-l-2 border-emerald-400/30"
@@ -145,12 +154,12 @@ export default function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI
 
           {/* Positives and benchmark */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 pt-4 border-t border-white/[0.07]">
-            {Array.isArray(aiInsights.positive_highlights) && (aiInsights.positive_highlights as string[]).length > 0 && (
+            {aiInsights.positive_highlights && aiInsights.positive_highlights.length > 0 && (
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-wider text-emerald-400/60 mb-2">
                   ✅ What&apos;s Working
                 </p>
-                {(aiInsights.positive_highlights as string[]).map((h, i) => (
+                {aiInsights.positive_highlights.map((h, i) => (
                   <p key={i} className="text-xs text-white/50 mb-1">{h}</p>
                 ))}
               </div>
@@ -160,7 +169,7 @@ export default function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI
                 <p className="text-[10px] font-bold uppercase tracking-wider text-white/30 mb-1">
                   📊 Industry Benchmark
                 </p>
-                {String(aiInsights.benchmark_context)}
+                {aiInsights.benchmark_context}
               </div>
             )}
           </div>

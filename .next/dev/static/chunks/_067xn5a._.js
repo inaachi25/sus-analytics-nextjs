@@ -3531,7 +3531,6 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$utils$2f$cn$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/utils/cn.ts [app-client] (ecmascript)");
-// components/charts/InsightsPanel.tsx
 "use client";
 ;
 ;
@@ -3585,7 +3584,7 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                                 children: "💡 Insights & Recommendations"
                             }, void 0, false, {
                                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                lineNumber: 33,
+                                lineNumber: 42,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3593,13 +3592,13 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                                 children: report.summary
                             }, void 0, false, {
                                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                lineNumber: 36,
+                                lineNumber: 45,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/charts/InsightsPanel.tsx",
-                        lineNumber: 32,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this),
                     !aiInsights && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3609,13 +3608,13 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                         children: aiLoading ? "⏳ Generating AI Insights..." : "✨ Generate AI Insights"
                     }, void 0, false, {
                         fileName: "[project]/components/charts/InsightsPanel.tsx",
-                        lineNumber: 39,
+                        lineNumber: 48,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                lineNumber: 31,
+                lineNumber: 40,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3637,7 +3636,7 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                                         children: cfg.icon
                                     }, void 0, false, {
                                         fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 74,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3650,7 +3649,7 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                                                 children: rec.category
                                             }, void 0, false, {
                                                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                                lineNumber: 67,
+                                                lineNumber: 76,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3658,19 +3657,19 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                                                 children: rec.insight
                                             }, void 0, false, {
                                                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 82,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 75,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                lineNumber: 64,
+                                lineNumber: 73,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3683,31 +3682,31 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                                             children: "→ "
                                         }, void 0, false, {
                                             fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                            lineNumber: 78,
+                                            lineNumber: 87,
                                             columnNumber: 19
                                         }, this),
                                         rec.action
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 86,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                lineNumber: 76,
+                                lineNumber: 85,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, i, true, {
                         fileName: "[project]/components/charts/InsightsPanel.tsx",
-                        lineNumber: 59,
+                        lineNumber: 68,
                         columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                lineNumber: 55,
+                lineNumber: 64,
                 columnNumber: 7
             }, this),
             aiInsights && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3721,7 +3720,7 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                                 children: "✨"
                             }, void 0, false, {
                                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                lineNumber: 90,
+                                lineNumber: 99,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3729,7 +3728,7 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                                 children: "AI-Generated Analysis"
                             }, void 0, false, {
                                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                lineNumber: 91,
+                                lineNumber: 100,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3739,34 +3738,34 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                                 children: "↺ Regenerate"
                             }, void 0, false, {
                                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                lineNumber: 94,
+                                lineNumber: 103,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/charts/InsightsPanel.tsx",
-                        lineNumber: 89,
+                        lineNumber: 98,
                         columnNumber: 11
                     }, this),
                     aiInsights.executive_summary && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-sm text-white/75 leading-relaxed mb-4 pb-4 border-b border-white/[0.07]",
-                        children: String(aiInsights.executive_summary)
+                        children: aiInsights.executive_summary
                     }, void 0, false, {
                         fileName: "[project]/components/charts/InsightsPanel.tsx",
-                        lineNumber: 105,
+                        lineNumber: 114,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid grid-cols-1 md:grid-cols-2 gap-5",
                         children: [
-                            Array.isArray(aiInsights.key_findings) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            aiInsights.key_findings && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-[10px] font-bold uppercase tracking-wider text-white/35 mb-2.5",
                                         children: "Key Findings"
                                     }, void 0, false, {
                                         fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                        lineNumber: 114,
+                                        lineNumber: 123,
                                         columnNumber: 17
                                     }, this),
                                     aiInsights.key_findings.map((f, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3774,23 +3773,23 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                                             children: f
                                         }, i, false, {
                                             fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                            lineNumber: 118,
+                                            lineNumber: 127,
                                             columnNumber: 19
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                lineNumber: 113,
+                                lineNumber: 122,
                                 columnNumber: 15
                             }, this),
-                            Array.isArray(aiInsights.priority_actions) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            aiInsights.priority_actions && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-[10px] font-bold uppercase tracking-wider text-white/35 mb-2.5",
                                         children: "Priority Actions"
                                     }, void 0, false, {
                                         fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                        lineNumber: 131,
+                                        lineNumber: 140,
                                         columnNumber: 17
                                     }, this),
                                     aiInsights.priority_actions.map((a, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3798,32 +3797,32 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                                             children: a
                                         }, i, false, {
                                             fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                            lineNumber: 135,
+                                            lineNumber: 144,
                                             columnNumber: 19
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                lineNumber: 130,
+                                lineNumber: 139,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/charts/InsightsPanel.tsx",
-                        lineNumber: 110,
+                        lineNumber: 119,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 pt-4 border-t border-white/[0.07]",
                         children: [
-                            Array.isArray(aiInsights.positive_highlights) && aiInsights.positive_highlights.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            aiInsights.positive_highlights && aiInsights.positive_highlights.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-[10px] font-bold uppercase tracking-wider text-emerald-400/60 mb-2",
                                         children: "✅ What's Working"
                                     }, void 0, false, {
                                         fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 159,
                                         columnNumber: 17
                                     }, this),
                                     aiInsights.positive_highlights.map((h, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3831,13 +3830,13 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                                             children: h
                                         }, i, false, {
                                             fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                            lineNumber: 154,
+                                            lineNumber: 163,
                                             columnNumber: 19
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                lineNumber: 149,
+                                lineNumber: 158,
                                 columnNumber: 15
                             }, this),
                             aiInsights.benchmark_context && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3848,32 +3847,32 @@ function InsightsPanel({ report, aiInsights, aiLoading, onFetchAI }) {
                                         children: "📊 Industry Benchmark"
                                     }, void 0, false, {
                                         fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                        lineNumber: 160,
+                                        lineNumber: 169,
                                         columnNumber: 17
                                     }, this),
-                                    String(aiInsights.benchmark_context)
+                                    aiInsights.benchmark_context
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                                lineNumber: 159,
+                                lineNumber: 168,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/charts/InsightsPanel.tsx",
-                        lineNumber: 147,
+                        lineNumber: 156,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/charts/InsightsPanel.tsx",
-                lineNumber: 88,
+                lineNumber: 97,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/charts/InsightsPanel.tsx",
-        lineNumber: 29,
+        lineNumber: 38,
         columnNumber: 5
     }, this);
 }

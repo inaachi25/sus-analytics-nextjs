@@ -1,12 +1,2 @@
-{"timestamp":"00:00:01.559","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:01.561","source":"Server","level":"LOG","message":"  We detected TypeScript in your project and reconfigured your tsconfig.json file for you."}
-{"timestamp":"00:00:01.561","source":"Server","level":"LOG","message":"  The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:\n"}
-{"timestamp":"00:00:01.563","source":"Server","level":"LOG","message":"  \t- target was set to ES2017 (For top-level `await`. Note: Next.js only polyfills for the esmodules target.)"}
-{"timestamp":"00:00:01.563","source":"Server","level":"LOG","message":"  \t- include was updated to add '.next/dev/types/**/*.ts'"}
-{"timestamp":"00:00:01.564","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:01.564","source":"Server","level":"LOG","message":"  The following mandatory changes were made to your tsconfig.json:\n"}
-{"timestamp":"00:00:01.565","source":"Server","level":"LOG","message":"  \t- jsx was set to react-jsx (next.js uses the React automatic runtime)"}
-{"timestamp":"00:00:01.565","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:01.886","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:01:23.010","source":"Server","level":"LOG","message":"○ Compiling / ..."}
-{"timestamp":"00:01:38.448","source":"Server","level":"WARN","message":"⚠ Blocked cross-origin request to Next.js dev resource /_next/webpack-hmr from \"192.168.254.131\".\nCross-origin access to Next.js dev resources is blocked by default for safety.\n\nTo allow this host in development, add it to \"allowedDevOrigins\" in next.config.js and restart the dev server:\n\n// next.config.js\nmodule.exports = {\n  allowedDevOrigins: ['192.168.254.131'],\n}\n\nRead more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins"}
+{"timestamp":"00:00:02.644","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:10.928","source":"Server","level":"WARN","message":"⚠ Blocked cross-origin request to Next.js dev resource /_next/webpack-hmr from \"192.168.254.131\".\nCross-origin access to Next.js dev resources is blocked by default for safety.\n\nTo allow this host in development, add it to \"allowedDevOrigins\" in next.config.js and restart the dev server:\n\n// next.config.js\nmodule.exports = {\n  allowedDevOrigins: ['192.168.254.131'],\n}\n\nRead more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins"}
